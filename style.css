@@ -27,10 +27,6 @@ p{
      hsl(0, 0%, 98%)
 }
 
-header{
-    /* position: fixed; */
-}
-
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -100,7 +96,7 @@ header{
     margin-bottom: 200px;
     height: 410px;
     z-index: 1;
-    transition: all ease-out 1.3s;
+    transition: all ease-in-out 1.3s;
 }
 
 .intro::after{
